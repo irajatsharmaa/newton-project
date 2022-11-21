@@ -48,7 +48,7 @@ function MoviePage() {
       </div>
       <div className={styles.similar}>
         <div className={styles.title}>Similar movies</div>
-        <div className={styles.movies}>
+        <div className="card-grid">
           {similarMovies.map((item) => (
             <MovieCard movie={item} key={item.id} />
           ))}
